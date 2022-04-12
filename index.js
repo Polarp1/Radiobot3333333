@@ -20,4 +20,4 @@ client.on('message', msg => {
   msg.reply('pong');
 });
 
-client.login('gy2X_bLjJ2fkMJ2rD2Gh3EJVfVzhVMOG');
+bot.login(process.env.DISCORD_BOT_TOKEN)
